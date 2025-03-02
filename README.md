@@ -2,6 +2,14 @@
 
 Calculates even hole spacing to lengths of stock, e.g. for attaching rails with screws.
 
+```
++---------------------++-------------------------------++------------//----------------+
+|    o     o     o    ||      o     o     o     o      ||   o     o  //  o     o       |
++---------------------++-------------------------------++------------//----------------+
+|<-->|<--->|<--->|<-->||<---->|<--->|<--->|<--->|<---->||<->|<--->|<-//->|<--->|<----->|
+  e1    d     d    e1     e2     d     d     d     e2    e3    d            d     en
+```
+
 ## Features
 
 - Calculate even spacing for screws along lengths of stock.
